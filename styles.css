@@ -18,6 +18,7 @@ h5,
 h6 {
   font-family: "Ubuntu", "calibri", sans-serif;
   font-weight: 700;
+  color: #004C97;
 }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
@@ -34,4 +35,43 @@ p { font-size: 1em; }
 }
 .centeredText{
     text-align: center;
+}
+
+/* /////////////////////// HEADER /////////////////////// */
+#logo{
+    height: 4rem;
+    width: 4rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+nav{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    height: 50px;
+}
+.navlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.navlist li{
+    height: 50px;
+    width: 125px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid lightgray;
+}
+.navlist li:last-child{
+    border-right: 1px solid lightgray;
+}
+.navlink{
+    text-decoration: none;
 }
